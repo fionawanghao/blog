@@ -65,4 +65,7 @@
      - 暂时选用 redis key=>val 格式存储
      - 需要解决 cahce 同步问题
      
+ - cache 同步方式
+ 
+     - 
     
