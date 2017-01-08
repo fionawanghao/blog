@@ -31,7 +31,7 @@
         
         id 
         name
-        passwd
+        passwd md5(明文密码 + '123456');
         status
         is_delete
         create_time
