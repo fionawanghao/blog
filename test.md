@@ -22,7 +22,7 @@
             
     - 封装一个yaf插件，在preDispatch这个过程中验证用户是否登录
         - 检查 $_session['is_login'] 是否存在并且为1，如果是返回true
-        - 如果没有或者不为1则跳转到 domain.com/login/index
+        - 如果没有或者不为1则跳转到header('Location: domain.com/login/index')
         
         
     
