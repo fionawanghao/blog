@@ -24,6 +24,18 @@
         - 检查 $_session['is_login'] 是否存在并且为1，如果是返回true
         - 如果没有或者不为1则跳转到header('Location: domain.com/login/index')
         
+    
+    - 数据库
+    
+        user_info
+        
+        id 
+        name
+        passwd
+        status
+        is_delete
+        
+        
         
     
     
