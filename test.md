@@ -34,7 +34,9 @@
         passwd
         status
         is_delete
-        
+        create_time
+        update_time
+    
         
         
     
