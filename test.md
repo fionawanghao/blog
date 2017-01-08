@@ -11,6 +11,12 @@
     接口认证相关内容
     RBAC基于角色的统一权限认证
     SSO 统一登录认证
+    
+    如何使用 xprof 优化 php 性能
+    
+    如何优化mysql
+        - 语句层面 explain 慢查询
+        - mysql 服务层面（选用）innodb 优化
 
 ### 登录相关
 
