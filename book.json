@@ -1,0 +1,6 @@
+{
+    "plugins": [
+        "disqus",
+        "advanced-emoji"
+    ]
+}
