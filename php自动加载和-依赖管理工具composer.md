@@ -6,6 +6,7 @@ PHP面向对象开发中常常把重复使用的类放在一个或几个文件�
 当使用到本文件中没有声明的类时，就会调用__autoload()，系统会按照该方法中定义的规则自动加载需要的文件。
 ####实例：
 
+
 ```
 function __autoload($class_name) { 
     $path = str_replace('_', '/', strtolower($class_name)); 
