@@ -4,9 +4,12 @@ http协议具有无状态的特性，在session没有出现之前，基本上所
 
 - 创建cookie
 ```
-setCookie($cookieName,$value,time()+秒数)；
+setCookie($cookieName,$value,[$expire],[$path],[$domain],[$secure])；
 ```
-第三个参数为过期时间，如果不写，浏览器关闭则过期
+一共有六个参数，第三个参数为cookie的生命周期，如果不写，浏览器关闭则过期；
+第五个参数是cookie的作用域，将cookie的所属域设置为顶级域可以解决同域不同子域的cookie跨域问题；
+第六个个参数是bool值，true代表加密（https），false代表不加密(http)。
+
 - 取值
 ```
 $_cookie[$cookieName];
