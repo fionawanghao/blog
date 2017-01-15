@@ -40,7 +40,9 @@ sbin/nginx 启动nginx 服务
 GRANT ALL PRIVILEGES ON [授权的数据库名称].[授权的数据表名称] TO '[访问的用户名]'@'[访问的IP地址，如果是全部IP或者全部IP段使用%代替]' identified by '[密码]' WITH GRANT OPTION  
 
 GRANT ALL PRIVILEGES ON *.* TO 'wp'@'%' identified by '123456' WITH GRANT OPTION  
-
+刷新权限
+flush privileges;
+ 
 192.168.10.224  192.168.10.%
 
 
