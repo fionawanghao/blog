@@ -71,6 +71,9 @@ $message = array(
   )
 );
 
+例如：
+
+domain -> add
 
  
 
