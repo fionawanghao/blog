@@ -6,6 +6,9 @@
 
 ### curl
 
+get
+
+post
 
 
 ### uc cache
