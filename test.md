@@ -20,6 +20,11 @@ curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($data));
 
 /api/roles
 
+
+key => val
+
+uc_roles_uid_doaminId =>json( [id1, id2, id3, id4....])
+
 /api/resources
 
 /api/has_resource
