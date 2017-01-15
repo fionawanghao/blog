@@ -16,6 +16,14 @@ curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($data));
 
 ### uc cache
 
+/api/resources
+
+/api/has_resource
+
+/api/roles
+
+
+
 ### uc web
 
 ### uc sdk
