@@ -50,6 +50,8 @@ uc_role_info_roleId => array(
 
 #### 将数据库中的数据同步到mysql 中
 
+
+uc_init.php
 domainId 
  uid 
  
