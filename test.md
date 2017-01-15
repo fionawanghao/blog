@@ -16,8 +16,15 @@ curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($data));
 
 ### uc cache
 
-#### 从cache中获取数据，如果没有按照现有逻辑执行
+#### redis 操作
 
+telnet 127.0.0.1 6379
+
+set  key value
+
+get key
+
+#### 从cache中获取数据，如果没有按照现有逻辑执行
 /api/roles
 
 
@@ -25,7 +32,16 @@ key => val
 
 uc_roles_uid_doaminId =>json( [id1, id2, id3, id4....])
 
-uc_role_info_roleId => json(name=>xxx desc=>xxxx])
+uc_role_info_roleId => array(
+ name=>xxx
+ desc=>xxxx,
+ resourceinfo => array(
+   array(
+    'name' => ''
+     id => ''
+    resource_url => ''
+   )
+ )
 
 /api/resources
 
