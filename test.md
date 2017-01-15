@@ -73,7 +73,9 @@ $message = array(
 
 例如：
 
-domain -> add
+domain -> add      // none
+
+domain -> delete  //
 
  
 
