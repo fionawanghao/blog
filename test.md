@@ -30,7 +30,7 @@ get key
 
 key => val
 
-uc_roles_key => array(
+uc_roles_keys => array(
  uc_roles_uid_doaminId 
 )
 
