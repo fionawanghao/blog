@@ -25,6 +25,10 @@ curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($data));
 /api/roles
 
 
+#### 将数据库中的数据同步到mysql 中
+
+
+
 
 ### uc web
 
