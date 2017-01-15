@@ -41,7 +41,6 @@ GRANT ALL PRIVILEGES ON [授权的数据库名称].[授权的数据表名称] TO
 
 GRANT ALL PRIVILEGES ON *.* TO 'wp'@'%' identified by '123456' WITH GRANT OPTION  
 
-
-192.168.10.224
+192.168.10.224  192.168.10.%
 
 
