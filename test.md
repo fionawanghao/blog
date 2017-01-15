@@ -59,6 +59,10 @@ domainId
  
 roles =>
 
+
+/usr/local/adinf/adweb-1.2/php/5.6.26/bin/php uc_sync.php 
+
+存储到同步的list 数据类型中的数据， 同步队列的key: uc_sync_queue
 $message = array(
  'type' => 'domain',
  'opt'  => 'update'/ 'delete'/ 'add'
@@ -66,7 +70,6 @@ $message = array(
    
   )
 );
-/usr/local/adinf/adweb-1.2/php/5.6.26/bin/php uc_sync.php 
 
 
  
