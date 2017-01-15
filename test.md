@@ -30,11 +30,16 @@ get key
 
 key => val
 
-uc_roles => array(
+uc_roles_key => array(
  uc_roles_uid_doaminId 
 )
 
 uc_roles_uid_doaminId =>json( [id1, id2, id3, id4....])
+
+uc_roles => array(
+ uc_roles_uid_doaminId 
+)
+
 
 uc_role_info_roleId => array(
  name=>xxx
