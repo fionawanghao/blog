@@ -60,7 +60,9 @@ domainId
 roles =>
 
 $message = array(
- 'type' => ''
+ 'type' => 'domain',
+ 'opt'  => 'update'/ 'delete'/ 'add'
+ 'data' => 
 );
 /usr/local/adinf/adweb-1.2/php/5.6.26/bin/php uc_sync.php 
 
