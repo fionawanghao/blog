@@ -25,6 +25,8 @@ key => val
 
 uc_roles_uid_doaminId =>json( [id1, id2, id3, id4....])
 
+uc_role_info_roleId => json(name=>xxx desc=>xxxx])
+
 /api/resources
 
 /api/has_resource
