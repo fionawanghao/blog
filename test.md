@@ -74,6 +74,13 @@ roles =>
 
 /usr/local/adinf/adweb-1.2/php/5.6.26/bin/php uc_sync.php 
 
+$redis->lpop('uc_sync_queuq');
+
+策略：
+domain -> add      // none
+
+
+
 存储到同步的list 数据类型中的数据， 同步队列的key: uc_sync_queue, 数据格式如下
 
 $redis->lPush('uc_sync_queue', jsone_encode($message));
@@ -88,7 +95,7 @@ $message = array(
 
 例如：
 
-domain -> add      // none
+
 
 domain -> delete  //
 
