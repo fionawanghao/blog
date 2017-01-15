@@ -31,7 +31,10 @@ get key
 key => val
 
 uc_roles_keys => array(
- uc_roles_uid_doaminId 
+ uc_roles_uid_doaminId
+ ...
+ ...
+ ... 
 )
 
 uc_roles_uid_doaminId =>json( [id1, id2, id3, id4....])
