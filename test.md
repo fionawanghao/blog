@@ -40,6 +40,7 @@ uc_roles_keys => array(
 uc_roles_uid_doaminId =>json( [id1, id2, id3, id4....])
 uc_roles_1_444 => [1,2,3,4,5]
 uc_roles_1_333 => [1,3,4,5]
+
 uc_roles_keys => array(
 uc_roles_1_333,
 uc_roles_1_444 
