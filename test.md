@@ -52,11 +52,19 @@ uc_role_info_roleId => array(
 
 /usr/local/adinf/adweb-1.2/php/5.6.26/bin/php uc_init.php 
 
+获取到所有的用户
 uc_init.php
 domainId 
  uid 
  
 roles =>
+
+
+
+
+/usr/local/adinf/adweb-1.2/php/5.6.26/bin/php uc_sync.php 
+
+
  
 
 
