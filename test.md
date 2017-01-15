@@ -9,7 +9,10 @@
 get
 
 post
-
+```
+curl_setopt($ch, CURLOPT_POST, true);
+curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($data));
+```
 
 ### uc cache
 
