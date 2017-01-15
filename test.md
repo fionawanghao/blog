@@ -50,6 +50,7 @@ uc_role_info_roleId => array(
 
 #### 将数据库中的数据同步到mysql 中
 
+/usr/local/adinf/adweb-1.2/php/5.6.26/bin/php uc_init.php 
 
 uc_init.php
 domainId 
