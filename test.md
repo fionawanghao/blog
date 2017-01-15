@@ -18,11 +18,11 @@ curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($data));
 
 #### 从cache中获取数据，如果没有按照现有逻辑执行
 
+/api/roles
+
 /api/resources
 
 /api/has_resource
-
-/api/roles
 
 
 #### 将数据库中的数据同步到mysql 中
