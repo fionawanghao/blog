@@ -29,3 +29,5 @@ nginx 安装目录
 conf/http/ 配置项目
 
 sbin/nginx 启动nginx 服务
+
+./sbin/nginx -s reload
