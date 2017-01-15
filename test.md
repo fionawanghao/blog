@@ -78,6 +78,8 @@ $redis->lpop('uc_sync_queuq');
 
 策略：
 domain -> add      // none
+domain -> delete  //
+
 
 
 
@@ -97,7 +99,7 @@ $message = array(
 
 
 
-domain -> delete  //
+
 
  
 
