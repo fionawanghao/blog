@@ -38,6 +38,10 @@ uc_roles_keys => array(
 )
 
 uc_roles_uid_doaminId =>json( [id1, id2, id3, id4....])
+uc_roles_1_444 => [1,2,3,4,5]
+uc_roles_1_333 => [1,3,4,5]
+
+
 
 
 uc_role_info_roleId => array(
@@ -84,8 +88,12 @@ $message = array(
   )
 );
 
-domain -> update      // none
+
 ```
+domain -> update      // none
+
+roles
+
 
 
 存储到同步的list 数据类型中的数据， 同步队列的key: uc_sync_queue, 数据格式如下
