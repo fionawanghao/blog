@@ -59,6 +59,8 @@ domainId
  
 roles =>
 
+$message = array(
+);
 /usr/local/adinf/adweb-1.2/php/5.6.26/bin/php uc_sync.php 
 
 
