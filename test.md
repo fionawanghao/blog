@@ -21,6 +21,8 @@
  
 /usr/local/adinf/adweb-1.2/php/5.6.26/sbin
 
+重新加载fpm php 配置文件
+kill -USR2 【fpm 进程号】
 
 nginx 安装目录
 
