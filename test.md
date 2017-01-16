@@ -82,7 +82,7 @@ $redis->lpop('uc_sync_queuq');
 
 策略：
 domain -> add      // none
-domain -> delete  // 通过uc_roles_keys 把要删除包含该domain_id 的key都删除掉， 以及所有的uc_role_info_roleId 
+domain -> delete  // 通过uc_roles_keys 把要删除包含该domain_id 的key都删除掉， 以及所有的uc_role_info_roleId ,uc_roles_uid_doaminId 
 ```
 $message = array(
  'type' => 'domain',
@@ -96,7 +96,29 @@ $message = array(
 ```
 domain -> update      // none
 
-roles
+role->add  //uc_role_info_roleId 增加
+role->delete //uc_role_info_roleId 减少
+role->update //uc_role_info_roleId更新角色信息
+
+resource->add //none
+resource->update //uc_role_info_roleId更新权限信息
+resource->delete //uc_role_info_roleId去掉包含删除权限的权限信息数组
+
+user->add //none
+user->delete //uc_roles_keys 把要删除包含该domain_id 的key都删除掉， 以及所有的uc_roles_uid_doaminId 
+user->update //none
+
+grant->add_role //uc_roles_uid_doaminId 根据增加的domain__ID 和uid增加角色ID
+grant->del_role //uc_roles_uid_doaminId 根据增加的domain__ID 和uid减少角色ID
+grant->add_resource //uc_role_info_roleId增加角色信息
+grant->del_resource //uc_role_info_roleId减少角色信息
+
+
+
+
+
+
+
 
 
 
