@@ -101,7 +101,7 @@ role->delete //uc_role_info_roleId 减少
 role->update //uc_role_info_roleId更新角色信息
 
 resource->add //none
-resource->update //uc_role_info_roleId更新权限信息
+resource->update //uc_role_info_roleId
 resource->delete //uc_role_info_roleId去掉包含删除权限的权限信息数组
 
 user->add //none
