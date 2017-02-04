@@ -10,5 +10,4 @@
 * [XHProf的安装和使用](XHProf的安装和使用.md)
 * [MySQL数据导出和导入](MySQL数据导出和导入.md)
 * [session共享](session共享.md)
-* [sudo 控制执行权限](sudo-控制执行权限.md)
 
