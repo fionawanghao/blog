@@ -55,7 +55,7 @@ guest ok=yes
 ```
 ####linux系统挂载smaba共享目录
 ```
-[root@nmred ~]# mount //192.168.1.108/web /mnt -o username=user1,password=pw
+[root@localhost ~]# mount //192.168.1.108/web /mnt -o username=user1,password=pw
 ```
 ####Windows系统访问方式
 在开始输入执行，然后输入访问地址//192.168.1.108/web，如图，点击确定就可以看到共享文件了^^
