@@ -14,4 +14,5 @@ brower install
 
 #### 运行
 
+npm run server:dev
 
