@@ -13,7 +13,8 @@ brower install
 
 
 #### 运行
-/fiona/project/code/uc-fe
+
+cd /fiona/project/code/uc-fe
 
 npm run server:dev
 
