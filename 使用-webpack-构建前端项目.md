@@ -14,6 +14,8 @@ brower install
 
 #### 运行
 
+http://192.168.10.224:3000/#
+
 cd /fiona/project/code/uc-fe
 
 npm run server:dev
