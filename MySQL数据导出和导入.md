@@ -19,3 +19,7 @@ mysql>source 要导入的数据目录
 ```
 【注意】导入时，目录的冒号后面的第一个目录分割符去掉，否则会报错如D:\wamp\bin\mysql\mysql5.6.12\bin\aaa 要写成
 D:wamp\bin\mysql\mysql5.6.12\bin\aaa
+如果报错写不能打开文件可以尝试不进入数据库
+```
+mysql -hlocalhost -uroot -P3306 -ppassword database < filename
+```
