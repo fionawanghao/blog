@@ -1,7 +1,8 @@
-####在介绍Nginx 与php交互的原理之前先介绍几个先关的概念
+####在介绍Nginx 与php交互的原理之前先介绍几个相关的概念
 
 - Nginx (“engine x”) 是一个高性能的HTTP和反向代理服务器，也是一个IMAP/POP3/SMTP服务器。
-- cgi协议解决不同的语言解释器(如php、Python解释器)与webserver的通信,webserver每收到一个请求，都会去fork一个cgi进程，请求结束再kill掉这个进程。fast-cgi实现单个进程可以一次处理多个请求。
+- cgi协议解决不同的语言解释器(如php、Python解释器)与webserver的通信,webserver每收到一个请求，都会去fork一个cgi进程，请求结束再kill掉这个进程。
+- fast-cgi实现单个进程可以一次处理多个请求。
 - php-fpm即php-Fastcgi Process Manager. php-fpm是 fast-cgi 的实现，并提供了进程管理的功能。 
 - 进程包含 master 进程和 worker 进程两种进程。 master 进程只有一个，负责监听端口，接收来自 Web Server 的请求，而 worker 进程则一般有多个(具体数量根据实际需要配置)，每个进程内部都嵌入了一个 PHP 解释器，是 PHP 代码真正执行的地方。
 
