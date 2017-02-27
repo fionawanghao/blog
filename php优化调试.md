@@ -37,7 +37,7 @@ if(isset($__GET['debug']) && $__GET['debug'] == 1）{
 } 
 ```
 
-####PHP慢日志
+####3.PHP慢日志
 修改php-fpm.conf文件，启用php慢日志,设置request_slowlog_timeout 和slowlog。
 
 ```
