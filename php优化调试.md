@@ -41,10 +41,16 @@ if(isset($__GET['debug']) && $__GET['debug'] == 1）{
 修改php-fpm.conf文件，启用php慢日志,设置request_slowlog_timeout 和slowlog。
 
 ```
-slowlog = log/$pool.log.slow
+slowlog = /log/$pool.log.slow
 ; The timeout for serving a single request after which a PHP backtrace will be
 ; dumped to the 'slowlog' file. A value of '0s' means 'off'.
 ; Available units: s(econds)(default), m(inutes), h(ours), or d(ays)
 ; Default Value: 0
 request_slowlog_timeout = 5s
 ```
+
+```
+tail -f /log/$pool.log.slow
+
+```
+上面的命令即可看到执行过慢的php过程
