@@ -15,4 +15,5 @@
 * [Nginx 与php交互的原理](nginx-与php交互的原理.md)
 * [PHP优化调试](php优化调试.md)
 * [PHP error 相关](php-error-相关.md)
+* [Nginx反向代理配置](nginx反向代理配置.md)
 

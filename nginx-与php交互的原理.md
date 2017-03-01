@@ -17,6 +17,7 @@ server {
     location / {
         index index.php; #跳转到www.example.com/index.php
         autoindex on;
+ 
     }   
 
     #当请求网站下php文件的时候，反向代理到php-fpm
