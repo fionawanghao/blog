@@ -1,0 +1,4 @@
+1. 为什么要做 session 共享
+2. 简单叙述 session_set_save_handler 设置的具体操作
+3. 详细描述 xprof 分析的方法，已经软件中各个字段的含义
+4. php-error 介绍不够全面，参考里面的地址重新补充一下
