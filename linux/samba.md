@@ -1,4 +1,4 @@
-###Samba安装和配置
+# Samba安装和配置
 
 ####Samba介绍
 Samba服务器可以实现Linux与Linux之间或者Linux与windows的文件共享和打印共享，后者用的的较多。Samba有两个服务，分别是smb(监听139 TCP端口,提供资源共享访问）和nmb(监听137和138 UDP端口,负责NetBIOS主机名称的解析）。

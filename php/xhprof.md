@@ -1,5 +1,10 @@
-###XHProf安装
-```
+# XHProf 的安装和使用
+
+### 安装
+
+#### 编译扩展
+
+```shell
 wget http://pecl.php.net/get/xhprof-0.9.2.tgz  
 tar zxf xhprof-0.9.2.tgz  
 cd xhprof-0.9.2    
@@ -8,15 +13,20 @@ cd extension/
 ./configure  --with-php-config=/usr/local/adinf/adweb-1.2/php/5.6.26/bin/php-config
 make && make install  
 ```
-###php.ini中添加
+
+#### 修改配置
+
 ```
 extension=xhprof.so
 xhprof.output_dir=/www/logs/xhprof  
 ```
 
 【注意】xhprof.output_dir定义分析日志写入的目录，需要注意该目录的权限，给予需要写入用户相应权限
-###使用方法
-```  
+
+### 使用方法
+
+```php
+
 xhprof_enable();   
 //xhprof_enable(XHPROF_FLAGS_NO_BUILTINS); 不记录内置的函数，不加这个参数有时候会报502  
 //xhprof_enable(XHPROF_FLAGS_CPU + XHPROF_FLAGS_MEMORY);  同时分析CPU和Mem的开销  
