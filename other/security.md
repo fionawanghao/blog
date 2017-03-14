@@ -10,20 +10,9 @@ XSS又叫CSS (Cross Site Script) ，跨站脚本攻击。它指的是恶意攻�
 
 
 ####预防办法：
+
 - 参数验证，只接受用户输入我们期待的值
 - 使用htmlspecialchars函数将用户输入的HTML标签实体化
-- 截获cookie一般通过document对象获取的，我们如果能让cookie在浏览器中不可见就可以了，那HttpOnly（php5.2以上）就是在设置cookie时接受这样一个参数，一旦被设置，在浏览器的document对象中就看不到cookie了。
-```
-    <?php
-
-    ini_set("session.cookie_httponly", 1);
-    // or
-    session_set_cookie_params(0, NULL, NULL, NULL, TRUE);
-    // or
-    setcookie("abc", "test", NULL, NULL, NULL, NULL, TRUE);
-```
-
-注意：只要用ajax取phpinfo页面，取出header头对应的部分就可以获得Cookie了。一些应用程序的不完善也可能导致header头的泄露，这种攻击方式对于基本验证保护的页面一样可以攻击。所以HttpOnly并不能完全防止xss攻击。
 
 
 ###CSRF攻击
